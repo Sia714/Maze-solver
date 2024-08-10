@@ -18,9 +18,9 @@ The project aims to create an interactive application that generates a maze and 
     * Make the wall a passage.
     *	Mark the unvisited cell as part of the maze.
     *	Add the neighboring walls of the cell to the wall list.
-2.	Player Movement Logic:
-o	Capture mouse clicks to determine the target cell.
-o	Check if the move is valid (i.e., there is no wall between the current cell and the target cell).
-o	Update the player's position and redraw the maze and player.
-3.	Maze Solving Algorithm:
-o	Implement a depth-first search (DFS) to find the path from the start to the end of the maze.
+#### 2.	Player Movement Logic:
+*	Capture mouse clicks to determine the target cell.
+*	Check if the move is valid (i.e., there is no wall between the current cell and the target cell).
+*	Update the player's position and redraw the maze and player.
+### 3.	Maze Solving Algorithm:
+*	Implement a depth-first search (DFS) to find the path from the start to the end of the maze.
