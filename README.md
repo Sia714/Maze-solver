@@ -14,10 +14,10 @@ The project aims to create an interactive application that generates a maze and 
 *	Start from the initial cell and add its walls to a list.
 *	While there are walls in the list:
     * Pick a random wall from the list.
-  * If only one of the two cells divided by the wall is visited, then:
-	Make the wall a passage.
-	Mark the unvisited cell as part of the maze.
-	Add the neighboring walls of the cell to the wall list.
+    * If only one of the two cells divided by the wall is visited, then:
+    * Make the wall a passage.
+    *	Mark the unvisited cell as part of the maze.
+    *	Add the neighboring walls of the cell to the wall list.
 2.	Player Movement Logic:
 o	Capture mouse clicks to determine the target cell.
 o	Check if the move is valid (i.e., there is no wall between the current cell and the target cell).
